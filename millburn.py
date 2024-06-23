@@ -1,6 +1,7 @@
 # millburn.py -- convert a lightburn -compatible .nc file into a form that 
-# can be used to generate a toolpath for a mill.  This is a simple script that reads the gcode file
-# and converts the laser commands into mill commands.  It is not perfect, but it is a start.
+# can be used to generate a toolpath for a (grblhal-controlled) mill.  
+# This is a simple script that reads the gcode file and converts the 2D 
+# laser path into a 2.5d millpath.  It is not perfect, but it is a start.
 # 
 # if you have a gcode file that you want to convert, you can run this script as follows:
 # python millburn.py <inputfile> <outputfile>
