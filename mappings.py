@@ -9,7 +9,7 @@
 GodeHeader = 'G17\nG21\nG40\nG80\nG90\nG17\nG94\n' # Units: mm, seconds, mm/min
 '''
 G17 use XY plane,
-G20 inch mode,
+G21 mm mode,
 G40 cancel diameter compensation, 
 G49 cancel length offset, G54 use coordinate system 1, 
 G80 cancel canned cycles, 

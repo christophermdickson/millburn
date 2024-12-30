@@ -22,8 +22,8 @@ OutputFeedRate = 0.0
 CurrentZ = 0.0
 
 
-with open(inputfile, "r") as f:
-    lines = f.readlines()   
+with open(inputfile, "r") as infil:
+    lines = infil.readlines()   
 
 # open the output file
 
